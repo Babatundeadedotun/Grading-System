@@ -1,0 +1,314 @@
+body{
+        background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+}
+.container{
+    border: none;
+    box-shadow: 2px 4px 8px 0 rgba(0,0,0,0.1), 0 6px 20px 0 rgba(0,0,0,0.2);
+    /* box-shadow: 0 13px 21px rgba(0, 0, 0, 0.05); */
+    background-color: rgba(0,0,0,0);
+    width: 35%;
+    height: 55vh;
+    text-align: center;
+    padding: 50px 30px;
+    font-family: poppins sans-serif;
+    margin-top: 120px;
+}
+.marque{
+    font-style: italic;
+    font-size: 22px;
+    margin-top: -30px;
+    margin-bottom: 30px;
+}
+.input-button{
+    display: flex;
+    margin-left: 25px;
+}
+.form-control{
+    height: 11vh;
+    width: 120% !important;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.btn{
+    height: 11vh;
+    width: 80% !important;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 38px;
+    border-radius: 0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #198754;
+}
+.btn:hover{
+    background-color: #6C757D;
+}
+.display{
+    border: none;
+    background-color: #FFFFCC;
+    width: 70% !important;
+    height: 10vh;
+    margin-left: 45px;
+    border-radius: 8px;
+    padding: 20px;
+    padding-top: 10px;
+    font-size: 23px;
+    font-weight: 500;
+}
+.boxes1{
+    display: flex;
+    gap: 190px;
+    margin-top: 44px;
+}
+.box1{
+    width: 7%;
+    height: 16vh;
+    justify-content: center;
+    text-align: center;
+    margin-left: 50px;
+    margin-top: -200px;
+    border-radius: 50%;
+      background: rgba(137, 228, 231, 0.27);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(1.5px);
+        -webkit-backdrop-filter: blur(1.5px);
+        animation-name: box1;
+        animation-delay: 0s;
+        animation-duration: 20s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+        animation-fill-mode: both;
+        animation-direction: normal;
+        position: relative;
+}
+@keyframes box1 {
+    0% {
+        left: 0px;
+    }
+
+    50% {
+        left: 1000px;
+    }
+
+    100% {
+        left: 0px;
+    }
+
+}
+.box2{
+    width: 7%;
+    height: 16vh;
+    justify-content: center;
+    text-align: center;
+    margin-left: 50px;
+    border-radius: 50%;
+      background: rgba(137, 228, 231, 0.27);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(1.5px);
+        -webkit-backdrop-filter: blur(1.5px);
+        animation-name: box2;
+        animation-delay: 0s;
+        animation-duration: 20s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+        animation-fill-mode: both;
+        animation-direction: normal;
+        position: relative;
+}
+
+@keyframes box2 {
+    0% {
+        left: 0px;
+    }
+
+    50% {
+        left: 500px;
+    }
+/* 
+    75% {
+
+        left: 500px;
+    } */
+
+    100% {
+        left: 0px;
+    }
+
+}
+
+.box3{
+    width: 7%;
+    height: 16vh;
+    justify-content: center;
+    text-align: center;
+    margin-left: 50px;
+    border-radius: 50%;
+    margin-top: -450px;
+      background: rgba(137, 228, 231, 0.27);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(1.5px);
+        -webkit-backdrop-filter: blur(1.5px);
+        animation-name: box3;
+        animation-delay: 0s;
+        animation-duration: 20s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+        animation-fill-mode: both;
+        animation-direction: normal;
+        position: relative;
+}
+
+@keyframes box3 {
+    0% {
+        left: 0px;
+    }
+
+    50% {
+        left: 300px;
+    }
+
+    75% {
+        left: -500px;
+    }
+
+    100% {
+        left: 0px;
+    }
+
+}
+
+
+.box4{
+    width: 7%;
+    height: 16vh;
+    justify-content: center;
+    text-align: center;
+    margin-left: 50px;
+    margin-top: -100px;
+    border-radius: 50%;
+      background: rgba(137, 228, 231, 0.27);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(1.5px);
+        -webkit-backdrop-filter: blur(1.5px);
+        animation-name: box4;
+        animation-delay: 0s;
+        animation-duration: 20s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+        animation-fill-mode: both;
+        animation-direction: normal;
+        position: relative;
+}
+@keyframes box4 {
+    0% {
+        right: 0px;
+    }
+
+    50% {
+        right: 1000px;
+    }
+
+    100% {
+        right: 0px;
+    }
+}
+
+.boxes2{
+    display: flex;
+    gap: 110px;
+    margin-top: 44px;
+}
+
+.box5 {
+    width: 7%;
+    height: 16vh;
+    justify-content: center;
+    text-align: center;
+    margin-left: 450px !important;
+    border-radius: 50%;
+    margin-top: -150px;
+      background: rgba(137, 228, 231, 0.27);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(1.5px);
+        -webkit-backdrop-filter: blur(1.5px);
+}
+.box6 {
+    width: 7%;
+    height: 16vh;
+    justify-content: center;
+    text-align: center;
+    margin-left: 70px;
+    border-radius: 50%;
+    margin-top: -150px;
+      background: rgba(137, 228, 231, 0.27);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(1.5px);
+        -webkit-backdrop-filter: blur(1.5px);
+}
+.box7 {
+    width: 7%;
+    height: 16vh;
+    justify-content: center;
+    text-align: center;
+    margin-left: -450px;
+    border-radius: 50%;
+    margin-top: -580px;
+      background: rgba(137, 228, 231, 0.27);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(1.5px);
+        -webkit-backdrop-filter: blur(1.5px);
+}
+.box8 {
+    width: 7%;
+    height: 16vh;
+    justify-content: center;
+    text-align: center;
+    margin-left: 50px;
+    border-radius: 50%;
+    margin-top: -580px;
+      background: rgba(137, 228, 231, 0.27);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(1.5px);
+        -webkit-backdrop-filter: blur(1.5px);
+}
+
+@media screen and (max-width: 820px) {
+    .container{
+        width: 100% !important;
+        height: 55vh;
+    }
+    .marque{
+        font-size: 35px !important;
+    }
+    .heading{
+        font-size: 60px;
+        margin-bottom: 20px;
+    }
+    .input-button{
+        width: 100% !important;
+    }
+    .form-control{
+        width: 100% !important;
+        margin-left: 25px;
+        height: 10vh;
+        font-size: 30px;
+    }
+    .btn{
+        margin-left: 10px;
+        width: 200% !important;
+        height: 10vh;
+    }
+    .display{
+        height: 8vh;
+        width: 60% !important;
+        padding-top: 30px;
+        margin-left: 90px;
+    }
+    .boxes1{
+        display: none;
+    }
+    .boxes2{
+        display: none;
+    }
+}
+
